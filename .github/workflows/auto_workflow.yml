@@ -2,7 +2,7 @@ name : first workflow
 on : push
 
 jobs :
-  test_auto_workflow :
+  auto_workflow_test :
     runs-on : ubuntu-latest
 
     steps :

@@ -3,7 +3,7 @@ on :
   workflow_dispatch
 
 jobs :
-  test_manual_workflow :
+  manual_workflow_test :
     runs-on : ubuntu-latest
 
     steps :
