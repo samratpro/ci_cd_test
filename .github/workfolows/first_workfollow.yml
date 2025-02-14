@@ -1,0 +1,11 @@
+name : first workflow
+on : push
+
+jobs :
+  firt workflow :
+    runs-on : ubuntu-latest
+
+    setps :
+      - name : first step
+        run : echo "This is my first step"
+    
