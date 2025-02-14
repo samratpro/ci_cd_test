@@ -8,5 +8,5 @@ jobs :
     steps :
       - name : first step
         run : |
-          pythom hello.py
+          echo "Hello, World!"
     
