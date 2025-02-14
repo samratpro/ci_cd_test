@@ -5,7 +5,7 @@ jobs :
   first_workfollow :
     runs-on : ubuntu-latest
 
-    setps :
+    steps :
       - name : first step
         run : |
           echo "This is my first step"
