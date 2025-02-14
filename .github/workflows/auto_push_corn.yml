@@ -1,14 +1,13 @@
-name : auto corn
-on :
-  schedule :
-    - corn: '*/5 * * *' # every 5 minutes
+name: auto corn
+on:
+  schedule:
+    - cron: '*/5 * * * *' # every 5 minutes
 
-jobs :
-  auto_workflow_test :
-    runs-on : ubuntu-latest
+jobs:
+  auto_workflow_test:
+    runs-on: ubuntu-latest
 
-    steps :
-      - name : first step
-        run : |
+    steps:
+      - name: first step
+        run: |
           echo "Hello, World!"
-    
