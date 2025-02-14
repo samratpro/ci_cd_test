@@ -1,8 +1,8 @@
 name : first workflow
-on : [push]
+on : push
 
 jobs :
-  first_workfollow :
+  first_workfollows :
     runs-on : ubuntu-latest
 
     steps :
