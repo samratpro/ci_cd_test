@@ -1,7 +1,8 @@
 name : auto branch
 on :
-  branchs :
-    - master
+  push :
+    branchs :
+      - master
 
 jobs :
   auto_workflow_test :
