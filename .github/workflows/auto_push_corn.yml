@@ -1,0 +1,13 @@
+name : auto corn
+  corn :
+    - '*/5 * * *' # every 5 minutes
+
+jobs :
+  auto_workflow_test :
+    runs-on : ubuntu-latest
+
+    steps :
+      - name : first step
+        run : |
+          echo "Hello, World!"
+    
