@@ -2,11 +2,11 @@ name : first workflow
 on : push
 
 jobs :
-  first_workfollows :
+  first workflow :
     runs-on : ubuntu-latest
 
     steps :
       - name : first step
         run : |
-          echo "This is my first step"
+          pythom hello.py
     
