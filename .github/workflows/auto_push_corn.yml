@@ -1,7 +1,7 @@
 name : auto corn
 on :
   schedule :
-    - '*/5 * * *' # every 5 minutes
+    - corn: '*/5 * * *' # every 5 minutes
 
 jobs :
   auto_workflow_test :
