@@ -1,7 +1,8 @@
 name: auto corn
 on:
   schedule:
-    - cron: '*/1 * * * *' # every 1 minutes
+    - cron: '*/1 * * * *' # every 1 minute
+  workflow_dispatch:
 
 jobs:
   auto_workflow_test:
